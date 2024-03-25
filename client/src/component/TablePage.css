@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+}
+
+.picture {
+    width: 400px;
+    height: 600px;
+    padding: 30px;
+    border: 1px solid black;
+    display: table-column-group;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 26px;
+}
+
+.dot-inner {
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.buttons {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+
+}
+
+button {
+    background-color: #cdc9f1;
+    color: black;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons .button-1,
+.buttons .button-2,
+.buttons .button-3 {
+    width: 400px;
+    height: 100px;
+    padding: 8px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 14px;
+
+}
